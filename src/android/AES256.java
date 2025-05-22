@@ -30,7 +30,7 @@ public class AES256 extends CordovaPlugin {
     private static final String GENERATE_SECURE_KEY = "generateSecureKey";
     private static final String GENERATE_SECURE_IV = "generateSecureIV";
 
-    private static final String CIPHER_TRANSFORMATION = "AES/CBC/PKCS5PADDING";
+    private static final String CIPHER_TRANSFORMATION = "AES/CBC/PKCS7PADDING";
     private static final int PBKDF2_ITERATION_COUNT = 1001;
     private static final int PBKDF2_KEY_LENGTH = 256;
     private static final int SECURE_IV_LENGTH = 64;
