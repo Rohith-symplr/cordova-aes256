@@ -3,5 +3,5 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.ExCiteS:apache-commons-codec-shaded:1.11.1'
+    implementation 'com.github.davideramoaxa:apache-commons-codec-shaded:v1.11.2'
 }
